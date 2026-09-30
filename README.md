@@ -101,3 +101,8 @@ mistyped formula the moment it happens.
 
 The sample statements are synthetic: the people, merchants' amounts and account numbers are made up; only the
 file layouts follow real exports.
+
+## License
+
+MIT (see [LICENSE](LICENSE)). The bundled data keeps its sources' terms: the historical returns are from
+Aswath Damodaran's public dataset (NYU Stern) and the life table from the US Social Security Administration.
