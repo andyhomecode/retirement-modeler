@@ -1,0 +1,8 @@
+kid,item,annual_amount_today,start_year,end_year,inflation,paid_from,notes
+Riley,College (private) - tuition + room and board,82000,2027,2028,college,college_funds,Junior and senior years; 529 pays first
+Riley,Spending money in college,6000,2027,2028,general,parents,
+Riley,Help after college (rent share + phone + insurance),14000,2029,2031,general,parents,First three years after graduating
+Riley,Wedding gift,30000,2033,2033,general,parents,A one-time line: start = end year
+Casey,College (state school) - tuition + room and board,34000,2027,2031,college,college_funds,Five-year program
+Casey,Spending money in college,5000,2027,2031,general,parents,
+Casey,Help after college,20000,2032,2033,general,parents,Two years while in grad school

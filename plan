@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Run the retirement modeler. First use creates a Python environment (openpyxl) in ~/.venvs/retirement-modeler.
+#   ./plan new us my-plan      ./plan check my-plan      ./plan montecarlo my-plan
+#   ./plan statements my-plan [--update-workbook]         ./plan demo us
+# Run ./plan with no arguments for the full list.
+set -euo pipefail
+
+VENV="${RETIREMENT_MODELER_VENV:-$HOME/.venvs/retirement-modeler}"
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+if [[ ! -x "$VENV/bin/python" ]]; then
+    echo "Creating a Python environment in $VENV ..."
+    python3 -m venv "$VENV"
+    "$VENV/bin/pip" install --quiet --upgrade pip
+fi
+if ! "$VENV/bin/python" -c "import openpyxl" 2>/dev/null; then
+    echo "Installing openpyxl ..."
+    "$VENV/bin/pip" install --quiet -r "$HERE/requirements.txt"
+fi
+exec "$VENV/bin/python" -u "$HERE/modeler/cli.py" "$@"

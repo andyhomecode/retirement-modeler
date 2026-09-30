@@ -1,0 +1,22 @@
+model_line,expense_group,category,subcategory,annual_actual,retirement_budget,source_period,n_transactions,notes
+household,Essential,Groceries,General,15840,15840,example,212,
+household,Essential,Utilities,"Electric, gas, water",4320,4320,example,24,
+household,Essential,Utilities,Phone & internet,2760,2760,example,24,
+household,Essential,Insurance,General,4150,4150,example,6,
+household,Essential,Transportation,Gas & parking,3600,3600,example,96,
+household,Essential,Transportation,Car maintenance,1900,1900,example,5,
+household,Essential,Personal Care,General,2100,2100,example,30,
+household,Discretionary,Dining,Restaurants & takeout,9800,9800,example,180,
+household,Discretionary,Travel,"Flights, hotels, rentals",14500,16000,example,40,Planning to travel a bit more once retired
+household,Discretionary,Shopping,General,11200,10000,example,260,
+household,Discretionary,Entertainment,General,3400,3400,example,45,
+household,Discretionary,Subscriptions,Streaming & software,1250,1250,example,48,
+household,Discretionary,Gifts & Donations,General,5200,5200,example,22,
+household,Discretionary,Home,Household goods,3100,3100,example,55,
+household,Discretionary,Pets,General,2400,2400,example,30,
+household,Discretionary,Cash,Withdrawals,1800,1800,example,20,
+housing,Housing,Housing,Mortgage,22140,,example,12,Modeled from the properties tab (mortgage balance and payment)
+housing,Housing,Housing,Property tax & insurance,13900,,example,6,Modeled from the properties tab (carrying_costs)
+healthcare,Healthcare,Healthcare,Out-of-pocket,3800,,example,40,Modeled on the healthcare tab
+kids,Kids,Kids,Support,19200,,example,48,Modeled on the kids_budget tab
+taxes,Taxes,Taxes,Estimated payments,8000,,example,4,Replaced by the model's own tax calculation

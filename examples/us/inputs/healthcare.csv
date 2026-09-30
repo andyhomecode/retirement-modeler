@@ -1,0 +1,12 @@
+key,value,unit,notes,source
+marketplace_adult_monthly,1150,$/month,"Unsubsidized Silver plan for a ~60-year-old. Check healthcare.gov or your state exchange; prices vary a lot by state and age (NY doesn't rate by age)",healthcare.gov plan finder
+marketplace_child_monthly,450,$/month,Per child on your plan,healthcare.gov plan finder
+marketplace_oop_per_person,3000,$/year,Deductibles and copays on a Silver plan,
+employer_plan_cost,9000,$/year,"Your share of premiums + out-of-pocket while working (the model uses it while either of you works)",Pay stubs / benefits portal
+medicare_part_b_monthly,202.90,$/month,2026 standard Part B premium,CMS
+medicare_part_d_monthly,45,$/month,Typical Part D plan,medicare.gov plan finder
+medigap_monthly,250,$/month,Medigap Plan G around 65-70,medicare.gov plan finder
+medicare_oop_per_person,1500,$/year,"Part B deductible, dental, vision, hearing",
+medical_inflation,0.05,per year,Healthcare costs have grown ~2 points faster than inflation,
+ltc_annual_cost,130000,$/year,"Home health aide or assisted living; a nursing home is ~$120-180k in the Northeast",Genworth / CareScout cost of care survey
+ltc_inflation,0.04,per year,,

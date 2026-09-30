@@ -1,0 +1,4 @@
+file_pattern,account,sign,date_format,headerless,date_col,description_col,amount_col,debit_col,credit_col,notes
+# Only needed when a file isn't read right. file_pattern is a wildcard on the path under statements/ (e.g. td-visa/*.csv).
+# account: name to use for it. sign: -1 if purchases come out positive (money in/out swapped). date_format: e.g. %d/%m/%Y.
+# To name the columns yourself fill date_col, description_col and amount_col (or debit_col + credit_col); for a file with no header row, headerless=yes and use 0-based column numbers.

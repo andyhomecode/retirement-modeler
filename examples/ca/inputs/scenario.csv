@@ -1,0 +1,36 @@
+key,value
+p1_retire,2030
+p2_retire,2031
+p1_pay,165000
+p2_pay,112000
+p1_contrib,16000
+p2_contrib,11000
+p1_match,8000
+p2_match,5500
+withholding_rate,0.27
+tax_due_first,0
+inflation,0.025
+return_default,0.05
+dividend_yield,0.025
+eligible_div_share,0.5
+col_infl,0.035
+p1_cpp_age,70
+p2_cpp_age,65
+p1_oas_age,67
+p2_oas_age,65
+p1_ltc_age,85
+p1_ltc_years,2
+p2_ltc_age,89
+p2_ltc_years,3
+conv_amount,40000
+conv_from,2031
+conv_to,2036
+event1_desc,Severance (one year's pay)
+event1_year,2030
+event1_amount,80000
+event1_type,Wages: person 1
+prop2_sell,2040
+p2_pension,30000
+p2_pension_age,65
+pension_indexing,0.8
+pension_survivor,0.6

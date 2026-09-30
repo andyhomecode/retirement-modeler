@@ -1,0 +1,8 @@
+kid,item,annual_amount_today,start_year,end_year,inflation,paid_from,notes
+Morgan,UBC tuition + books,9500,2027,2029,college,college_funds,RESP pays first
+Morgan,Living at home - extra costs,6000,2027,2029,general,parents,
+Morgan,Help after graduating (rent share),12000,2030,2032,general,parents,Vancouver rents
+Jamie,University tuition + residence (out of town),24000,2028,2031,college,college_funds,
+Jamie,Spending money,4800,2028,2031,general,parents,
+Jamie,Help after graduating,9000,2032,2033,general,parents,
+Jamie,Master's degree,18000,2034,2035,college,parents,

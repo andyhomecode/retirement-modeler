@@ -1,0 +1,27 @@
+category,model_line,expense_group,notes
+Groceries,household,Essential,
+Utilities,household,Essential,
+Insurance,household,Essential,"Auto, home contents, umbrella, life (home insurance can go in the property's carrying costs instead)"
+Transportation,household,Essential,
+Personal Care,household,Essential,
+Dining,household,Discretionary,
+Travel,household,Discretionary,
+Shopping,household,Discretionary,
+Entertainment,household,Discretionary,
+Recreation,household,Discretionary,
+Subscriptions,household,Discretionary,
+Gifts & Donations,household,Discretionary,
+Home,household,Discretionary,Furniture and household goods (repairs/renovations belong on other_budget)
+Pets,household,Discretionary,
+Education,household,Discretionary,Your own courses (kids' school goes under Kids)
+Professional Services,household,Discretionary,
+Cash,household,Discretionary,
+Fees,household,Discretionary,
+Uncategorized,household,Discretionary,
+Housing,housing,Housing,"Mortgage, property tax, condo/strata fees, rent: modeled from the properties tab"
+Healthcare,healthcare,Healthcare,Modeled on the healthcare tab
+Kids,kids,Kids,Modeled on the kids_budget tab - one subcategory per kid
+Taxes,taxes,Taxes,Replaced by the model's own tax calculation
+Income,income,,Not spending
+Transfer,transfer,,"Card payments, moves between your own accounts, investment contributions - not spending"
+Rental Property,property,,Rental income and costs are on the properties tab

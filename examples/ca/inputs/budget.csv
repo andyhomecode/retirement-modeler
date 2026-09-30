@@ -1,0 +1,20 @@
+model_line,expense_group,category,subcategory,annual_actual,retirement_budget,source_period,n_transactions,notes
+household,Essential,Groceries,General,17200,17200,example,230,
+household,Essential,Utilities,"Electric, gas, water",2600,2600,example,12,
+household,Essential,Utilities,Phone & internet,2900,2900,example,24,
+household,Essential,Insurance,General,3800,3800,example,4,
+household,Essential,Transportation,Gas & parking,4200,4200,example,120,
+household,Essential,Transportation,Car maintenance,1600,1600,example,4,
+household,Essential,Personal Care,General,1900,1900,example,28,
+household,Discretionary,Dining,Restaurants & takeout,8900,8900,example,170,
+household,Discretionary,Travel,"Flights, hotels, rentals",13000,15000,example,32,More travel once retired
+household,Discretionary,Shopping,General,9400,9000,example,210,
+household,Discretionary,Entertainment,General,2800,2800,example,40,
+household,Discretionary,Subscriptions,Streaming & software,1100,1100,example,44,
+household,Discretionary,Gifts & Donations,General,4200,4200,example,20,
+household,Discretionary,Home,Household goods,2600,2600,example,40,
+household,Discretionary,Recreation,"Gym, sports",3500,3500,example,12,
+housing,Housing,Housing,Mortgage,36400,,example,26,Modeled from the properties tab
+housing,Housing,Housing,"Property tax, strata, insurance",11800,,example,16,Modeled from the properties tab (carrying_costs)
+healthcare,Healthcare,Healthcare,"Dental, drugs, physio",2900,,example,30,Modeled on the healthcare tab
+kids,Kids,Kids,Support,14400,,example,40,Modeled on the kids_budget tab

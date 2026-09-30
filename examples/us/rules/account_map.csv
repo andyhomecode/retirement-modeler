@@ -1,0 +1,6 @@
+match,account_name,bucket,notes
+# Balances found in statements -> the account name on the assets tab and its bucket. match is a regular expression tested against the account label the pipeline prints (the statement folder name or the account number) and the file path.
+^checking$,Checking,taxable,The checking account's OFX ledger balance
+X00000001,Brokerage (joint) - index funds,taxable,
+Z00000002,Alex rollover IRA,pretax_p1,
+Z00000003,Alex Roth IRA,roth,

@@ -1,0 +1,22 @@
+# Plans hold personal financial data. Keep yours outside this folder (./plan new us ~/retirement-plan),
+# or in my-plans/. These rules also catch a plan folder created directly inside the repo.
+my-plans/
+*/plan.xlsx
+!examples/*/plan.xlsx
+*/PLANNING.md
+!templates/PLANNING.md
+*/inputs/
+!examples/*/inputs/
+**/statements/*
+!examples/*/statements/
+!examples/*/statements/**
+**/ledger/
+**/backups/
+demo-us/
+demo-ca/
+.~lock.*#
+~$*.xlsx
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

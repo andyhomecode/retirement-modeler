@@ -1,0 +1,2 @@
+match,account_name,bucket,notes
+# Balances found in statements -> the account name on the assets tab and its bucket. match is a regular expression tested against the account label the pipeline prints (the statement folder name or the account number) and the file path.

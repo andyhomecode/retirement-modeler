@@ -1,0 +1,16 @@
+key,value
+country,CA
+region,British Columbia
+start_year,2027
+p1_name,Sam
+p1_born,1967
+p1_sex,M
+p2_name,Taylor
+p2_born,1969
+p2_sex,F
+p1_cpp_at_65,1320
+p2_cpp_at_65,1040
+p1_oas_years,40
+p2_oas_years,34
+joint_share_p1,0.5
+tfsa_room,42000

@@ -1,0 +1,7 @@
+key,value,unit,notes,source
+employer_plan_cost,1500,$/year,"Your share of the group benefits plan + out-of-pocket while working",Benefits statement
+private_plan_monthly,160,$/month,"Extended health + dental for one retired adult (e.g. PacificBlue Cross, Manulife FlexCare)",Insurer quotes
+oop_per_person,1800,$/year,"Drugs above PharmaCare, dental, vision, physio not covered",
+medical_inflation,0.045,per year,,
+ltc_annual_cost,95000,$/year,"Private assisted living / private-pay care in Metro Vancouver. Publicly subsidized long-term care costs up to 80% of after-tax income instead",BC Seniors Advocate
+ltc_inflation,0.04,per year,,

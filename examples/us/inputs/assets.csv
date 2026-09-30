@@ -1,0 +1,13 @@
+account,bucket,value,as_of,cost_basis,notes
+Brokerage (joint) - index funds,taxable,880000,2027-01-01,560000,
+High-yield savings,taxable,55000,2027-01-01,,cash: cost basis = value
+Checking,taxable,15000,2027-01-01,,
+Alex 401(k),pretax_p1,1150000,2027-01-01,,
+Alex rollover IRA,pretax_p1,210000,2027-01-01,,
+Jordan 403(b),pretax_p2,540000,2027-01-01,,
+Alex Roth IRA,roth,95000,2027-01-01,,
+Jordan Roth IRA,roth,62000,2027-01-01,,
+HSA,hsa,48000,2027-01-01,,
+Riley 529,college_529,115000,2027-01-01,,
+Casey 529,college_529,130000,2027-01-01,,
+Cars,not_modeled,35000,2027-01-01,,Not investments

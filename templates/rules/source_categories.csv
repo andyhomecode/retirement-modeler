@@ -1,0 +1,18 @@
+source_category,category,subcategory,notes
+# Used when no payee rule matched: the card issuer's own category (regular expression) -> yours.
+^(Food & Drink|Restaurants?|Restaurant-.*|Dining)$,Dining,Restaurants & takeout,"Chase, Apple, Amex, Capital One"
+^(Groceries|Grocery|Supermarkets|Merchandise & Supplies-Groceries)$,Groceries,General,
+^(Gas|Gasoline|Transportation-Fuel|Gas/Automotive)$,Transportation,Gas & parking,
+^(Automotive|Transportation.*)$,Transportation,Transit & rideshare,
+^(Travel|Airlines|Hotels|Travel-.*|Travel/ Entertainment|Lodging)$,Travel,"Flights, hotels, rentals",
+^(Shopping|Merchandise|Merchandise & Supplies.*|Department Stores)$,Shopping,General,
+^(Entertainment|Entertainment-.*)$,Entertainment,General,
+^(Bills & Utilities|Utilities|Communications.*)$,Utilities,Phone & internet,
+^(Health & Wellness|Medical|Health Care|Medical Services)$,Healthcare,Out-of-pocket,
+^(Personal|Personal Care)$,Personal Care,General,
+^Home$,Home,Household goods,
+^(Education)$,Education,General,
+^(Gifts & Donations|Donations)$,Gifts & Donations,General,
+^(Professional Services|Business Services.*|Services)$,Professional Services,General,
+^(Fees & Adjustments|Fees.*|Interest)$,Fees,Bank & card fees,
+^Alcohol$,Dining,Restaurants & takeout,

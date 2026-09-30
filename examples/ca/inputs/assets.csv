@@ -1,0 +1,11 @@
+account,bucket,value,as_of,cost_basis,notes
+Joint non-registered (ETFs),non_registered,420000,2027-01-01,290000,Adjusted cost base from the broker
+High-interest savings,non_registered,35000,2027-01-01,,cash: cost basis = value
+Chequing,non_registered,12000,2027-01-01,,
+Sam RRSP,rrsp_p1,760000,2027-01-01,,
+Sam DC pension (LIRA on leaving),rrsp_p1,180000,2027-01-01,,
+Taylor RRSP,rrsp_p2,410000,2027-01-01,,
+Sam TFSA,tfsa,118000,2027-01-01,,
+Taylor TFSA,tfsa,96000,2027-01-01,,
+Family RESP,resp,88000,2027-01-01,,
+Car,not_modeled,25000,2027-01-01,,

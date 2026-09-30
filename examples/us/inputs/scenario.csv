@@ -1,0 +1,45 @@
+key,value
+p1_retire,2030
+p2_retire,2029
+p1_pay,190000
+p2_pay,98000
+p1_contrib,31000
+p2_contrib,24500
+p1_match,9500
+p2_match,4900
+hsa_contrib,9550
+withholding_rate,0.22
+tax_due_first,4000
+inflation,0.03
+return_default,0.055
+dividend_yield,0.015
+col_infl,0.04
+p1_claim_age,68
+p2_claim_age,67
+ss_early_cut,0.02
+ss_cut_pct,0.19
+ss_cut_year,2034
+other_state_rate,0
+p1_ltc_age,88
+p1_ltc_years,3
+p2_ltc_age,84
+p2_ltc_years,2
+conv_amount,60000
+conv_from,2031
+conv_to,2035
+charity,3000
+event1_desc,Moving costs when selling the house
+event1_year,2040
+event1_amount,15000
+event1_type,Expense
+event2_desc,Inheritance from Jordan's parents
+event2_year,2036
+event2_amount,150000
+event2_type,Tax-free money in
+prop1_sell,2040
+prop1_costs,36000
+prop2_sell,2045
+p2_pension,26000
+p2_pension_age,62
+pension_indexing,0.5
+pension_survivor,0.5

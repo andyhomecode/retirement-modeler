@@ -1,0 +1,6 @@
+match,account_name,bucket,notes
+# Balances found in statements -> the account name on the assets tab and its bucket. match is a regular expression tested against the account label the pipeline prints (the statement folder name or the account number) and the file path.
+rbc-chequing,Chequing,non_registered,RBC's CSV has no balance column: update this one on the assets tab by hand
+^Joint non-registered$,Joint non-registered (ETFs),non_registered,
+^Sam TFSA$,Sam TFSA,tfsa,
+^Taylor TFSA$,Taylor TFSA,tfsa,
